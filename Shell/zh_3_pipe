@@ -1,0 +1,8 @@
+#!/bin/sh
+sorok=-1
+until [ $sorok -eq 0 ]
+do
+	echo Hany adatot listazzak
+	read sorok
+	getent passwd | cut -f5,6 -d':' | sort | head -n$sorok | cut -f1,3 -d '/' | tr ':' ' '
+done

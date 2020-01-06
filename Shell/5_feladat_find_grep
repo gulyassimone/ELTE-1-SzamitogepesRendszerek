@@ -1,0 +1,29 @@
+#!/bin/sh
+
+find $1 -maxdepth 2 -type f -exec grep -l  $2 {} \;
+
+#find
+#-empty
+#-name ""
+#-size 
+# + nagyobb
+# - kisebb
+# c byte
+# k kilobyte
+# M Megab
+# G Gigab
+#-type
+# f szabvanyos
+# d konyvtar
+# l szimbolikus link
+#-perm 777
+#-mtime +/- nap
+#-exec {} \;
+#-not
+#-o
+#grep
+#-s nincs hibauzi
+#-l csak fajlnev
+#-r rekurziv
+#-w teljes szora kereses
+

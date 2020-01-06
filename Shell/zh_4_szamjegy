@@ -1,0 +1,55 @@
+#!/bin/bash
+case $1 in 
+0)
+	echo Nulla
+	;;
+1)
+	echo Egy
+	;;
+2)
+	echo Ketto
+	;;
+3)
+	echo Harom
+	;;
+4)
+	echo Negy
+	;;
+5)
+	echo Ot
+	;;
+6)
+	echo Hat
+	;;
+7)
+	echo Het
+	;;
+8)
+	echo Nyolc
+	;;
+9)
+	echo Kilenc
+	;;
+A)
+	echo Tiz
+	;;
+B)
+	echo Tizenegy
+	;;
+C)
+	echo Tizenketto
+	;;
+D)
+	echo Tizenharom
+	;;
+E)
+	echo Tizennegy
+	;;
+F)
+	echo tizenot
+	;;
+
+*)
+	 echo Nem szamjegyet adott meg!
+	;;
+esac

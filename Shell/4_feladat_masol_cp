@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo kerek egy fajlt
+read fajl
+echo kerek egy nevet
+read nev
+
+cp $fajl $nev
