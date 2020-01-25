@@ -1,0 +1,5 @@
+﻿nev, email, ido
+Gulyás Simone, valam@gmail.com, 17:01
+Gulyás Simone1, valam1@gmail.com, 17:02
+Gulyás Simone2, valam2@gmail.com, 17:03
+Gulyás Simone3, valam3@gmail.com, 17:04

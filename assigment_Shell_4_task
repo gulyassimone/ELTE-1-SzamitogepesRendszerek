@@ -1,0 +1,29 @@
+#!/bin/sh
+
+filename=$1
+while [ -z $filename ]
+do
+	read -p "Nem adtál meg fájlnevet: " filename
+done
+
+while [ ! -f $filename ]
+do
+	read -p "Nem találom a fájlt, add meg újra: " filename
+done
+
+max=0
+maxert=' '
+
+valami=$(cat $filename | tr ' ' '\n')
+
+for i in $valami
+do
+	felt=$(cat $filename | tr ' ' '\n' | grep -c $i)
+	if [ $felt -ge $max ]
+	then
+		max=$felt
+		maxert=$i
+	fi
+done
+
+echo "A(z) $maxert szót találtam meg legtöbbször $((max-1)) alkalommal "
