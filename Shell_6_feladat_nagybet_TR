@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo Kerem a szoveget
-read a
-
-echo $a | tr [a-züóőúűéá] [A-ZÜÓŐÚŰÉÁ]
