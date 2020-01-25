@@ -1,0 +1,3 @@
+#!/bin/sh
+
+expr $(cat szam.txt) + 1 > szam.txt

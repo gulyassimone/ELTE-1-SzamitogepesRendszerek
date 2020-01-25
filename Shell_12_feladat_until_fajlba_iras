@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Kerem a sorokat
+read beolvas
+
+until [ $(echo $beolvas | grep -w vege | wc -w ) -ge 1 ]
+do
+	echo $beolvas >> ideiglenes.txt
+	read beolvas
+done
+ 
+head ideiglenes.txt | sort
+rm ideiglenes.txt

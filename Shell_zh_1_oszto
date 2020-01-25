@@ -1,0 +1,19 @@
+#!/bin/bash
+osztando=$1
+oszto=$2
+if [ $# -gt 2 ]
+then 
+	echo Tobb mint 2 parametert adott meg!
+else
+	if [ $# -lt 1 ]
+	then
+		echo -n "Kerem az osztando erteket: "
+		read osztando
+	fi
+	if [ $# -lt 2 ]
+	then 
+		echo -n "Kerem a oszto erteket: "
+		read oszto
+	fi
+	echo "A masik befogo hosszanak negyzete osztando/oszto=" $(expr $osztando \/ $oszto)
+fi

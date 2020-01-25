@@ -1,0 +1,14 @@
+#!/bin/sh
+
+ora=$(date +%H)
+
+
+if [ $ora -le 4 -o $ora -ge 20 ]
+	then echo ejszaka
+elif [ $ora -le 8 -a $ora -ge 5 ]
+	then echo reggel
+elif [ $ora -le 12 -a $ora -ge 9 ]
+	then echo delelott
+else
+	echo delutan
+fi

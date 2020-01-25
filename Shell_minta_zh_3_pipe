@@ -1,0 +1,8 @@
+#!/bin/sh
+sorok=-1
+until [ $sorok -eq 0 ]
+do
+	echo Hany adatot listazzak
+	read sorok
+	last | tr -s ' ' | cut -f3,9 -d ' ' | sort | head -n$sorok | cut -f1,4 -d '.' | tr ';.' ' '
+done
