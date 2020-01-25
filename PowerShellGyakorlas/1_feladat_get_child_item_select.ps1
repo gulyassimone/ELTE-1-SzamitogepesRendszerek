@@ -1,1 +1,0 @@
-﻿Get-ChildItem -File | Select-Object -First 10

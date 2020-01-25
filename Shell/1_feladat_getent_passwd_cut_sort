@@ -1,2 +1,0 @@
-#!/bin/sh
-getent passwd | cut -f1 -d ':' | sort | head -n 10
