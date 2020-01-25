@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#4. Feladat: A munkakönyvtárban található nem n vagy m betável kezdődő azonositük listázása, melyek középső betáje a, e vagy s.
+
+ls ?[aes]?

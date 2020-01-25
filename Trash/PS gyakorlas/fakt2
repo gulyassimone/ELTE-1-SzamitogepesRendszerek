@@ -1,0 +1,12 @@
+Készítsünk scriptet, amelyik kiszámolja a paraméterben megadott szám faktoriálisát! Kötelező
+paraméterként kérjük be a számot. Kényszerítsük a megfelelő típusú érték beírását!
+param
+(
+ [Parameter(Mandatory=$true)][int]$n
+)
+$fakt=1
+for ($i=1; $i -le $n; $i++)
+{
+$fakt=$fakt*$i
+}
+Write-Host "A(z) $n faktoriálisa: $fakt"

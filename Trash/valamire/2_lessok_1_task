@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#Feladat 1: A munkakönyvtár tartalmáról részletes lista, méret szerint csökkenő sorrendben, a rejtett fájlok is jelenjenek meg.
+
+ls -l -a -S

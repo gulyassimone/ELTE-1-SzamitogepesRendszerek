@@ -1,0 +1,1 @@
+find .. -name *.txt -size -15b -exec ls -l {} ;

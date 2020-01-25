@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#6 Feladat A munkakönyvtárban található c betáre végzédé azonoditók kilistázása
+
+ls *c

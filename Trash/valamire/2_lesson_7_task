@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#7. feladat a gyökérkönyvtár kilistázása
+
+ls /

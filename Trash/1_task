@@ -1,0 +1,6 @@
+#!/bin/sh
+
+template = 'lami'
+hello='live'
+template ="${template/\*/$hello}"
+echo $template

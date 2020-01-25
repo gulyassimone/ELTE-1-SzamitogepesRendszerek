@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#2. Feladat A munkakönyvtár tartalmáról részletes lista, alegrégebben módositottól a legutóbb módositott, időrendben, "emberi" méretlistával
+
+ls -l -r -h -t

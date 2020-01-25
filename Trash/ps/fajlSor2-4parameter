@@ -1,0 +1,5 @@
+write-host A paraméterként kapott fájl sorainak 2-4. karaktere:
+foreach ($i in Get-Content $args[0])
+{
+ write-host $i.Substring(1,3)
+}

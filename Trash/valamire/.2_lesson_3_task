@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#4. Feladat: A munkakönyvtárban található összes 7 karakter hosszú azonositót listázása
+
+ls -l ???????

@@ -1,0 +1,11 @@
+#!/bin/bash
+a=$1
+b=$2
+if[$# -gt 2];
+then echo "Tobb mint ket parametert adott meg"
+if[b# -lt 1]
+then echo -n "Kerem az atfogo erteket:"
+read a
+fi
+if
+echo "A masik befogo hosszanak negyzete $a*$a-$b*$b=" (a*a-b*b)=

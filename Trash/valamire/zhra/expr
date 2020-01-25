@@ -1,0 +1,5 @@
+#!/bin/sh
+
+b=$(cat szam.txt)
+
+expr $b + 3
